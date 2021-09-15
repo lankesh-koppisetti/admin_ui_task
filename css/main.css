@@ -1,0 +1,106 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+
+main{
+    width:700px;
+    margin: 0 auto;
+}
+
+.pageTitle{
+    font-size: 30px;
+}
+
+textarea:focus,
+input:focus,
+button:focus,
+a:focus {
+    outline: none !important;
+}
+
+
+dl {
+    margin-bottom: 60px;
+}
+
+dl > dt {
+    font-size: 16px;
+}
+
+dl > dd {
+    font-size: 14px;
+}
+
+.inline {
+    display: inline-block !important;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+table#members{
+    margin-top:50px;
+    font-size: 14px;
+}
+
+table#members > thead > tr >th{
+    text-transform: uppercase;
+}
+
+table#members tr{
+    border-top: 1px solid #555;
+}
+
+table#members tr th,table#members tr td{
+    padding: 5px 8px;
+}
+
+#table-footer{
+    background-color: #f9f9f9;
+    padding: 5px 0px;
+    margin-top: 20px;
+}
+
+.deleteSelected{
+    border:1px solid #f79483;
+    padding:5px 10px;
+    background-color: #f79483;
+    border-radius: 6px;
+}
+
+#pagination .pageList{
+    margin: 0px;
+    float: right;
+}
+
+#serchbar{
+
+    width:100%;
+    padding: 
+        10px;
+}
+#pagination .page{
+
+    padding: 5px 11px;
+    background-color: #ccc;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.tabledit-deleted-row{
+    display: none;
+}
+.selectCheckbox
+{ background-color: #ccc; }
